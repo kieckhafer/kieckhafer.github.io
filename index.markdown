@@ -14,7 +14,19 @@ A collection of current and historical MLB, MLS, NBA, NFL, and NHL logos.
 
 ### [Playoff Magic](https://playoffmagic.com)
 
-Magic Numbers and playoff clinching & elimination scenarios for MLB, MLS, NBA, NFL, and NHL teams, as well as Magic Numbers and league clinching & relegation scenarios for England's Premier League, Germany's Bundesliga, Italy's Serie A, Scotland's Premiership, and Spain's La Liga.
+Magic Numbers and playoff clinching & elimination scenarios for the worlds most popular sports leagues:
+
+- Major League Baseball (United States and Canada)
+- National Basketball Association (United States and Canada)
+- National Football League (United States)
+- National Hockey League (United States and Canada)
+- Bundesliga (Germany)
+- La Liga (Spain)
+- Ligue 1 (France)
+- Major League Soccer (United States and Canada)
+- Premier League (England)
+- Premiership (Scotland)
+- Serie A (Italy)
 
 ### [Stadiums.me](https://stadiums.me)
 

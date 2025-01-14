@@ -36,6 +36,10 @@ Track your visits to current and historical MLB, NBA, NFL, and NHL stadiums.
 
 Track the mythical NFL Title Belt.
 
+### [Watch The Avs](https://watchtheavs.com)
+
+Helping you navigate the web of NHL broadcast rights holders.
+
 ## Chrome Plugins
 
 ### [openTabs](https://chrome.google.com/webstore/detail/opentabs/ldnbelnhmpjjlibfandpolkgfkgombma?hl=en&authuser=0)

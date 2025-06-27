@@ -3,10 +3,30 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 title: Erik Kieckhafer
-description: Erik Kieckhafer is software engineer.
+description: Erik Kieckhafer is a father, volunteer, community advocate, notary, software engineer.
 ---
 
-## Projects
+## Free Time
+
+### [Teller Pantry Friends](https://tellerpantry.org)
+
+Teller Pantry Friends is a not-for-profit, 501(c)3 charity dedicated to providing living essentials to current students, their families and school staff at Teller Elementary School in Denver, Colorado. Our goal is to provide these essentials to every community member, regardless of income or social status. I currently serve as the Vice President of the Teller Pantry, and volunteer each week during [our open pantry hours](https://www.tellerpantry.org/hours/).
+
+### [Congress Park Neighbors](https://www.congressparkneighbors.org)
+
+Working with the businesses and residents to better the Congress Park community.
+
+### [DNVR Notary](https://dnvrnotary.com/)
+
+I am commissioned in the State of Colorado and a member of the National Notary Association.
+
+## Full Time
+
+### [Mailchimp](https://mailchimp.com)
+
+I make the software you use to send out emails.
+
+## Projects ([Published as Code & Sons](https://codeandsons.com))
 
 ### [Logo CDN](https://logocdn.com)
 

@@ -25,7 +25,6 @@ Magic Numbers and playoff clinching & elimination scenarios for the worlds most 
 - Ligue 1 (France)
 - Major League Soccer (United States and Canada)
 - Premier League (England)
-- Premiership (Scotland)
 - Serie A (Italy)
 
 ### [Stadiums.me](https://stadiums.me)

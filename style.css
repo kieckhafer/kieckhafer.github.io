@@ -1,0 +1,91 @@
+:root {
+  --bg: #f3efe6;
+  --ink: #1c1915;
+  --muted: #6d675f;
+  --mark: #ffe14a;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; }
+
+body {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Instrument Sans", "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.45;
+}
+
+::selection { background: var(--mark); }
+
+.page {
+  max-width: 40rem;
+  margin-left: max(1.5rem, 11vw);
+  margin-right: 1.5rem;
+  padding: 11vh 0 5rem;
+}
+
+.mark {
+  width: 3.4rem;
+  height: auto;
+  display: block;
+  margin-bottom: 2.5rem;
+}
+
+h1 {
+  margin: 0 0 1.4rem;
+  font-family: Fraunces, "Iowan Old Style", Palatino, serif;
+  font-optical-sizing: auto;
+  font-weight: 560;
+  font-size: clamp(3.1rem, 8vw, 5rem);
+  letter-spacing: -0.045em;
+  line-height: 0.92;
+}
+
+.about {
+  display: grid;
+  gap: 1.15rem;
+  margin: 0 0 2.75rem;
+  max-width: 36rem;
+}
+
+.about p {
+  margin: 0;
+  font-size: 1.28rem;
+  line-height: 1.55;
+}
+
+.hl {
+  background-image: linear-gradient(var(--mark), var(--mark));
+  background-repeat: no-repeat;
+  background-size: 100% 0.38em;
+  background-position: 0 88%;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  background: var(--mark);
+  text-decoration: none;
+}
+
+.copy {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.copy p { margin: 0; }
+
+@media (max-width: 640px) {
+  .page { padding-top: 3rem; }
+  .about p { font-size: 1.12rem; }
+}

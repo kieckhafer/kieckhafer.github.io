@@ -23,7 +23,7 @@ body {
 .page {
   max-width: 40rem;
   margin-left: max(1.5rem, 11vw);
-  margin-right: 1.5rem;
+  margin-right: max(1.5rem, 11vw);
   padding: 11vh 0 5rem;
 }
 

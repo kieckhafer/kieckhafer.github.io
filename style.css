@@ -11,12 +11,34 @@ html, body { margin: 0; }
 
 body {
   min-height: 100vh;
-  background: var(--bg);
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(circle at calc(100% - 9rem) 15.5rem, #f14c32 0 0.7rem, transparent 0.8rem),
+    radial-gradient(circle at calc(100% - 1rem) 17.5rem, transparent 0 2rem, #f14c32 2.08rem 2.22rem, transparent 2.32rem);
+  background-repeat: no-repeat;
   color: var(--ink);
   font-family: "Instrument Sans", "Avenir Next", "Segoe UI", sans-serif;
   font-size: 1.125rem;
   line-height: 1.45;
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  z-index: 0;
+  pointer-events: none;
+  width: 9.5rem;
+  height: 9.5rem;
+  right: 2.75rem;
+  top: 3.4rem;
+  border-radius: 50%;
+  background:
+    linear-gradient(var(--bg), var(--bg)) center 36% / 100% 0.42rem no-repeat,
+    linear-gradient(var(--bg), var(--bg)) center 64% / 100% 0.42rem no-repeat,
+    linear-gradient(var(--mark) 0 36%, #ff8a2e 36% 64%, #e4376e 64% 100%);
+}
+
+.page { position: relative; z-index: 1; }
 
 ::selection { background: var(--mark); }
 
@@ -105,6 +127,16 @@ a:hover {
 }
 
 .copy p { margin: 0; }
+
+@media (max-width: 800px) {
+  body { background-image: none; }
+  body::before {
+    width: 7.5rem;
+    height: 7.5rem;
+    right: -2.4rem;
+    top: -2.4rem;
+  }
+}
 
 @media (max-width: 640px) {
   .page {

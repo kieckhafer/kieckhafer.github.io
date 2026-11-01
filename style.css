@@ -83,6 +83,34 @@ h1 {
   line-height: 1.55;
 }
 
+.links {
+  display: flex;
+  gap: 0.35rem;
+  margin-top: 0.15rem;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+}
+
+.links a svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  display: block;
+}
+
+.links a[target="_blank"] {
+  background-image: none;
+}
+
+.links a[target="_blank"]::after {
+  content: none;
+}
+
 a {
   color: inherit;
   text-decoration-thickness: 1px;

@@ -21,10 +21,13 @@ body {
 ::selection { background: var(--mark); }
 
 .page {
+  box-sizing: border-box;
   max-width: 40rem;
   margin-left: max(1.5rem, 11vw);
   margin-right: max(1.5rem, 11vw);
   padding: 11vh 0 5rem;
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .mark {
@@ -103,6 +106,13 @@ a:hover {
 .copy p { margin: 0; }
 
 @media (max-width: 640px) {
-  .page { padding-top: 3rem; }
+  .page {
+    /* Drop the 11vw side margins on phones — they felt left-heavy.
+       Use equal inline padding so gutters can't be eaten by min-content. */
+    margin-left: 0;
+    margin-right: 0;
+    padding: 3rem 1.5rem 5rem;
+  }
+  h1 { font-size: clamp(2.75rem, 11.5vw, 3.25rem); }
   .about p { font-size: 1.12rem; }
 }

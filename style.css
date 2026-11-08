@@ -60,8 +60,7 @@ body::before {
 }
 
 h1 {
-  /* Pull left so Fraunces sidebearing optically lines up with the logo and body. */
-  margin: 0 0 1.4rem -0.08em;
+  margin: 0 0 1.4rem;
   font-family: Fraunces, "Iowan Old Style", Palatino, serif;
   font-optical-sizing: auto;
   font-weight: 560;

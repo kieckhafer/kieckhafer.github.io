@@ -2,7 +2,9 @@
   --bg: #f3efe6;
   --ink: #1c1915;
   --muted: #6d675f;
-  --mark: #ffe14a;
+  --mark: #45b0f7;
+  --blue: #137cd8;
+  --blue-deep: #104993;
 }
 
 * { box-sizing: border-box; }
@@ -13,8 +15,8 @@ body {
   min-height: 100vh;
   background-color: var(--bg);
   background-image:
-    radial-gradient(circle at calc(100% - 9rem) 15.5rem, #f14c32 0 0.7rem, transparent 0.8rem),
-    radial-gradient(circle at calc(100% - 1rem) 17.5rem, transparent 0 2rem, #f14c32 2.08rem 2.22rem, transparent 2.32rem);
+    radial-gradient(circle at calc(100% - 9rem) 15.5rem, var(--blue) 0 0.7rem, transparent 0.8rem),
+    radial-gradient(circle at calc(100% - 1rem) 17.5rem, transparent 0 2rem, var(--blue) 2.08rem 2.22rem, transparent 2.32rem);
   background-repeat: no-repeat;
   color: var(--ink);
   font-family: "Instrument Sans", "Avenir Next", "Segoe UI", sans-serif;
@@ -35,7 +37,7 @@ body::before {
   background:
     linear-gradient(var(--bg), var(--bg)) center 36% / 100% 0.42rem no-repeat,
     linear-gradient(var(--bg), var(--bg)) center 64% / 100% 0.42rem no-repeat,
-    linear-gradient(var(--mark) 0 36%, #ff8a2e 36% 64%, #e4376e 64% 100%);
+    linear-gradient(var(--mark) 0 36%, var(--blue) 36% 64%, var(--blue-deep) 64% 100%);
 }
 
 .page { position: relative; z-index: 1; }
